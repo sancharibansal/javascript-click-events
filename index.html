@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click Detection</title>
+
+  <style>
+    button {
+      cursor: pointer;
+      font-size: 20px;
+    }
+  </style>
+
+</head>
+<body>
+  <h1>Click Detection</h1>
+  <h3><strong>Note:</strong> Please open browser's console to view the logs.</h3>
+  
+  <h3>Question 1: Double Click Detection (200ms threshold)</h3>
+
+  
+  <button id="doubleClickButton">Double Click Button</button>
+
+  <h3>Question 2: Triple Click Detection (400ms threshold)</h3>
+  
+  <button id="tripleClickButton">Triple Click Button</button>
+
+  <p> - Double click threshold adjusted from 100 ms to 200 ms. <br>
+    - Triple click threshold adjusted from 150 ms to 400 ms. <br>
+    - I've adjusted the thresholds due to practical purposes as it's difficult to double click within 100 ms and triple click within 150 ms
+</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
