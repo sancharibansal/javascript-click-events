@@ -1,6 +1,9 @@
 # javascript-click-events
 Click event detection for double and triple clicks.
 
+# Live Demo Link
+https://app.netlify.com/sites/javascript-click-events/overview
+
 # Features
 
 Detects double clicks within 200 ms.
