@@ -2,7 +2,7 @@
 Click event detection for double and triple clicks.
 
 # Live Demo Link
-https://app.netlify.com/sites/javascript-click-events/overview
+https://javascript-click-events.netlify.app
 
 # Features
 
